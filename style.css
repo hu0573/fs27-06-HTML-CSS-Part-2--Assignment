@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  flex-direction: roa;
+  flex-direction: row;
   min-height: 100vh;
   flex-wrap: wrap;
   align-content: center;
@@ -49,9 +49,7 @@ body {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   cursor: pointer;
-  width: 100%;
-  max-width: 10rem;
-  min-width: 5rem;
+  width: 10rem;
 }
 
 .card-button:hover,
